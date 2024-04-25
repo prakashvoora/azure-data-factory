@@ -1,0 +1,9 @@
+{
+	"name": "data-factory-voora-test",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "855b094a-cbe8-466f-85d7-58ad069adf31",
+		"tenantId": "0ac0953a-a588-4c27-bb85-a9ac8927ab6f"
+	}
+}
