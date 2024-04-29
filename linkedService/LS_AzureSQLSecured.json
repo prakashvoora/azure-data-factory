@@ -1,0 +1,18 @@
+{
+	"name": "LS_AzureSQLSecured",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=sql-database-server-demo-voora.database.windows.net;Initial Catalog=users_db;User ID=rootadmin",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LSAzureKeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "SQLServerPassword1"
+			}
+		}
+	}
+}
