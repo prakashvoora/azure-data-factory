@@ -1,0 +1,28 @@
+{
+	"name": "TriggerDatabricksNotebook",
+	"properties": {
+		"activities": [
+			{
+				"name": "Trigger Notebook from Databricks",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/prakash.voora@gmail.com/TestNotebook"
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_AzureDatabricks",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
