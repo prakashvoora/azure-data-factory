@@ -1,9 +1,9 @@
 {
-	"name": "pipeline2",
+	"name": "TriggerDatabricksNotebook",
 	"properties": {
 		"activities": [
 			{
-				"name": "Notebook1",
+				"name": "Trigger Notebook from Databricks",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
