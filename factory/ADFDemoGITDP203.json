@@ -1,0 +1,9 @@
+{
+	"name": "ADFDemoGITDP203",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "35f0be98-d506-4ac8-aa0d-cdbe57e948da",
+		"tenantId": "0ac0953a-a588-4c27-bb85-a9ac8927ab6f"
+	}
+}
